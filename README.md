@@ -95,38 +95,6 @@ DELETE /api/transacoes/{id}
 
 ---
 
-## 🧪 Exemplos de uso (cURL)
-
-### Listar:
-
-```
-curl -X GET http://localhost:8080/api/transacoes
-```
-
-### Criar:
-
-```
-curl -X POST http://localhost:8080/api/transacoes \
--H "Content-Type: application/json" \
--d '{"descricao":"Compra","valor":100}'
-```
-
-### Atualizar:
-
-```
-curl -X PUT http://localhost:8080/api/transacoes/1 \
--H "Content-Type: application/json" \
--d '{"descricao":"Atualizado","valor":200}'
-```
-
-### Deletar:
-
-```
-curl -X DELETE http://localhost:8080/api/transacoes/1
-```
-
----
-
 ## 🧠 Funcionamento
 
 A API:
